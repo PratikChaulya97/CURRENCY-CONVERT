@@ -1,0 +1,67 @@
+<!doctype html>
+<HTML>
+<head>
+   <title>How to Create a Currency Converter in JavaScript</title>
+</head>
+<link rel="stylesheet" href="currency.css">
+<body>
+   <img src="https://cdn3d.iconscout.com/3d/premium/thumb/currency-conversion-7207796-5846232.png" class="img" >
+   <div class="container">
+   <h1 class="h1" id="h1">Currency Converter</h1>
+   <p class="p" id="p"> Select Currency and enter Amount to convert.</p>
+   <form>
+      <label>From:</label>
+      <select id="from" class="amount">
+        <option value="USD" selected>United States Dollars</option>
+    <option value="EUR">Euro</option>
+    <option value="GBP">United Kingdom Pounds</option>
+    <option value="AUD">Austria Schilling</option>
+    <option value="ATS">United States Dollars</option>
+    <option value="CAD">Canada Dollars</option>
+    <option value="HKD">Hong Kong Dollars</option>
+    <option value="HUF">Hungary Forint</option>
+    <option value="ISK">Iceland Krona</option>
+    <option value="INR">Indian Rupees</option>
+    <option value="IDR">Indonesia Rupiah</option>
+    <option value="IEP">Ireland Punt</option>
+    <option value="ILS">Israel New Shekels</option>
+    <option value="KRW">Kora (South) Won</option>
+    <option value="NZD">New Zealand Dollars</option>
+    <option value="NOK">Norway Kroner</option>
+    <option value="SGD">Singapore Dollars</option>
+    <option value="ZAR">South Africa Rand</option>
+    <option value="KRW">South Korea Won</option>
+    <option value="XPT">Platinum Ounces</option>
+      </select>
+      <label><br><br>To:</label>
+      <select id="to" class="amount">
+        <option value="USD" >United States Dollars</option>
+        <option value="EUR">Euro</option>
+        <option value="GBP">United Kingdom Pounds</option>
+        <option value="AUD">Austria Schilling</option>
+        <option value="ATS">United States Dollars</option>
+        <option value="CAD">Canada Dollars</option>
+        <option value="HKD">Hong Kong Dollars</option>
+        <option value="HUF">Hungary Forint</option>
+        <option value="ISK">Iceland Krona</option>
+        <option value="INR" selected>Indian Rupees</option>
+        <option value="IDR">Indonesia Rupiah</option>
+        <option value="IEP">Ireland Punt</option>
+        <option value="ILS">Israel New Shekels</option>
+        <option value="KRW">Kora (South) Won</option>
+        <option value="NZD">New Zealand Dollars</option>
+        <option value="NOK">Norway Kroner</option>
+        <option value="SGD">Singapore Dollars</option>
+        <option value="ZAR">South Africa Rand</option>
+        <option value="KRW">South Korea Won</option>
+        <option value="XPT">Platinum Ounces</option>
+      </select>
+      <label><br><br>Amount:</label>
+      <input type="text" id="amount" class="amount"/><br><br>
+      <button type="button" class="convert">Convert</button>
+      <p id="result"></p>
+   </form>
+   </div>
+   <script src="currency.js"></script>
+</body>
+</html>
